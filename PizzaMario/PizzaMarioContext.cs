@@ -21,5 +21,7 @@ namespace PizzaMario
         public DbSet<PaymentType> PaymentTypes { get; set; }
         public DbSet<Ingredient> Ingredients { get; set; }
         public DbSet<Pricing> Pricings { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<SubCategory> SubCategories { get; set; }
     }
 }

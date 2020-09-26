@@ -73,8 +73,13 @@
     <Compile Include="Migrations\202009261452592_AddIngredient-PricingTable.designer.cs">
       <DependentUpon>202009261452592_AddIngredient-PricingTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009261458305_AddCategory-SubCategoryTable.cs" />
+    <Compile Include="Migrations\202009261458305_AddCategory-SubCategoryTable.designer.cs">
+      <DependentUpon>202009261458305_AddCategory-SubCategoryTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AlternateOpeningHour.cs" />
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\DeliveryRange.cs" />
     <Compile Include="Models\Ingredient.cs" />
@@ -83,6 +88,7 @@
     <Compile Include="Models\Pricing.cs" />
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Store.cs" />
+    <Compile Include="Models\SubCategory.cs" />
     <Compile Include="Models\Township.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="PizzaMarioContext.cs" />
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009261452592_AddIngredient-PricingTable.resx">
       <DependentUpon>202009261452592_AddIngredient-PricingTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009261458305_AddCategory-SubCategoryTable.resx">
+      <DependentUpon>202009261458305_AddCategory-SubCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
