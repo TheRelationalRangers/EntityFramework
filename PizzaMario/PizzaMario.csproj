@@ -81,6 +81,10 @@
     <Compile Include="Migrations\202009261511551_AddSauce-CrustTable.designer.cs">
       <DependentUpon>202009261511551_AddSauce-CrustTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009261531368_AddOrder-Product-OrderlineTable.cs" />
+    <Compile Include="Migrations\202009261531368_AddOrder-Product-OrderlineTable.designer.cs">
+      <DependentUpon>202009261531368_AddOrder-Product-OrderlineTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AlternateOpeningHour.cs" />
     <Compile Include="Models\Category.cs" />
@@ -89,8 +93,11 @@
     <Compile Include="Models\DeliveryRange.cs" />
     <Compile Include="Models\Ingredient.cs" />
     <Compile Include="Models\OpeningHour.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderLine.cs" />
     <Compile Include="Models\PaymentType.cs" />
     <Compile Include="Models\Pricing.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Sauce.cs" />
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Store.cs" />
@@ -126,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009261511551_AddSauce-CrustTable.resx">
       <DependentUpon>202009261511551_AddSauce-CrustTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009261531368_AddOrder-Product-OrderlineTable.resx">
+      <DependentUpon>202009261531368_AddOrder-Product-OrderlineTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
