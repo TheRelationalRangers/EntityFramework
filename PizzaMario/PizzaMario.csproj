@@ -61,11 +61,17 @@
     <Compile Include="Migrations\202009261407256_AddStore-DeliveryRangeTables.designer.cs">
       <DependentUpon>202009261407256_AddStore-DeliveryRangeTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009261432322_AddOpeningHour-AlternateOpeningHourTables.cs" />
+    <Compile Include="Migrations\202009261432322_AddOpeningHour-AlternateOpeningHourTables.designer.cs">
+      <DependentUpon>202009261432322_AddOpeningHour-AlternateOpeningHourTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AlternateOpeningHour.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\DeliveryRange.cs" />
     <Compile Include="Models\OpeningHour.cs" />
+    <Compile Include="Models\PaymentType.cs" />
+    <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Store.cs" />
     <Compile Include="Models\Township.cs" />
     <Compile Include="Models\Address.cs" />
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009261407256_AddStore-DeliveryRangeTables.resx">
       <DependentUpon>202009261407256_AddStore-DeliveryRangeTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009261432322_AddOpeningHour-AlternateOpeningHourTables.resx">
+      <DependentUpon>202009261432322_AddOpeningHour-AlternateOpeningHourTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
