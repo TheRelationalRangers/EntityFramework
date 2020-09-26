@@ -57,9 +57,15 @@
     <Compile Include="Migrations\202009261353367_AddCustomer-Address-TownshipTables.designer.cs">
       <DependentUpon>202009261353367_AddCustomer-Address-TownshipTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009261407256_AddStore-DeliveryRangeTables.cs" />
+    <Compile Include="Migrations\202009261407256_AddStore-DeliveryRangeTables.designer.cs">
+      <DependentUpon>202009261407256_AddStore-DeliveryRangeTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AlternateOpeningHour.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\DeliveryRange.cs" />
+    <Compile Include="Models\OpeningHour.cs" />
     <Compile Include="Models\Store.cs" />
     <Compile Include="Models\Township.cs" />
     <Compile Include="Models\Address.cs" />
@@ -74,6 +80,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202009261353367_AddCustomer-Address-TownshipTables.resx">
       <DependentUpon>202009261353367_AddCustomer-Address-TownshipTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009261407256_AddStore-DeliveryRangeTables.resx">
+      <DependentUpon>202009261407256_AddStore-DeliveryRangeTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
