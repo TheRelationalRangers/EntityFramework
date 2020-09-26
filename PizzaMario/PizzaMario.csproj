@@ -53,6 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\202009261353367_AddCustomer-Address-TownshipTables.cs" />
+    <Compile Include="Migrations\202009261353367_AddCustomer-Address-TownshipTables.designer.cs">
+      <DependentUpon>202009261353367_AddCustomer-Address-TownshipTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Township.cs" />
     <Compile Include="Models\Address.cs" />
@@ -64,7 +69,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202009261353367_AddCustomer-Address-TownshipTables.resx">
+      <DependentUpon>202009261353367_AddCustomer-Address-TownshipTables.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
