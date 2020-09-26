@@ -59,6 +59,8 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\DeliveryRange.cs" />
+    <Compile Include="Models\Store.cs" />
     <Compile Include="Models\Township.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="PizzaMarioContext.cs" />
