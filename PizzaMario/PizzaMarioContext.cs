@@ -23,5 +23,7 @@ namespace PizzaMario
         public DbSet<Pricing> Pricings { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
+        public DbSet<Sauce> Sauces { get; set; }
+        public DbSet<Crust> Crusts { get; set; }
     }
 }
