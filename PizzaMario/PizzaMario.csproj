@@ -65,12 +65,22 @@
     <Compile Include="Migrations\202009261432322_AddOpeningHour-AlternateOpeningHourTables.designer.cs">
       <DependentUpon>202009261432322_AddOpeningHour-AlternateOpeningHourTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009261441544_AddStatus-PaymentTypeTables.cs" />
+    <Compile Include="Migrations\202009261441544_AddStatus-PaymentTypeTables.designer.cs">
+      <DependentUpon>202009261441544_AddStatus-PaymentTypeTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009261452592_AddIngredient-PricingTable.cs" />
+    <Compile Include="Migrations\202009261452592_AddIngredient-PricingTable.designer.cs">
+      <DependentUpon>202009261452592_AddIngredient-PricingTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AlternateOpeningHour.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\DeliveryRange.cs" />
+    <Compile Include="Models\Ingredient.cs" />
     <Compile Include="Models\OpeningHour.cs" />
     <Compile Include="Models\PaymentType.cs" />
+    <Compile Include="Models\Pricing.cs" />
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Store.cs" />
     <Compile Include="Models\Township.cs" />
@@ -92,6 +102,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009261432322_AddOpeningHour-AlternateOpeningHourTables.resx">
       <DependentUpon>202009261432322_AddOpeningHour-AlternateOpeningHourTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009261441544_AddStatus-PaymentTypeTables.resx">
+      <DependentUpon>202009261441544_AddStatus-PaymentTypeTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009261452592_AddIngredient-PricingTable.resx">
+      <DependentUpon>202009261452592_AddIngredient-PricingTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

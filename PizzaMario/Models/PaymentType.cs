@@ -1,4 +1,6 @@
-﻿namespace PizzaMario.Models
+﻿using System.Runtime.InteropServices;
+
+namespace PizzaMario.Models
 {
     public class PaymentType
     {

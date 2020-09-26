@@ -17,5 +17,9 @@ namespace PizzaMario
         public DbSet<DeliveryRange> DeliveryRanges { get; set; }
         public DbSet<OpeningHour> OpeningHours { get; set; }
         public DbSet<AlternateOpeningHour> AlternateOpeningHours { get; set; }
+        public DbSet<Status> Statuses { get; set; }
+        public DbSet<PaymentType> PaymentTypes { get; set; }
+        public DbSet<Ingredient> Ingredients { get; set; }
+        public DbSet<Pricing> Pricings { get; set; }
     }
 }
