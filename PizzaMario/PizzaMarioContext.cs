@@ -33,6 +33,7 @@ namespace PizzaMario
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new CustomerConfiguration());
+            modelBuilder.Configurations.Add(new AddressConfiguration());
         }
     }
 }

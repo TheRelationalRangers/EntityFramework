@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityConfigurations\AddressConfiguration.cs" />
     <Compile Include="EntityConfigurations\CustomerConfiguration.cs" />
     <Compile Include="Migrations\202009261353367_AddCustomer-Address-TownshipTables.cs" />
     <Compile Include="Migrations\202009261353367_AddCustomer-Address-TownshipTables.designer.cs">
@@ -89,6 +90,10 @@
     <Compile Include="Migrations\202009271244346_AddCustomerConfiguration.cs" />
     <Compile Include="Migrations\202009271244346_AddCustomerConfiguration.designer.cs">
       <DependentUpon>202009271244346_AddCustomerConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009271256429_AddAddressConfiguration.cs" />
+    <Compile Include="Migrations\202009271256429_AddAddressConfiguration.designer.cs">
+      <DependentUpon>202009271256429_AddAddressConfiguration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AlternateOpeningHour.cs" />
@@ -144,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009271244346_AddCustomerConfiguration.resx">
       <DependentUpon>202009271244346_AddCustomerConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009271256429_AddAddressConfiguration.resx">
+      <DependentUpon>202009271256429_AddAddressConfiguration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

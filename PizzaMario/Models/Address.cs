@@ -6,7 +6,7 @@ namespace PizzaMario.Models
     {
         public int Id { get; set; }
         public string Street { get; set; }
-        public int HouseNumber { get; set; }
+        public string HouseNumber { get; set; }
         public string Addition { get; set; }
         public string ZipCode { get; set; }
         public string City { get; set; }
@@ -15,6 +15,7 @@ namespace PizzaMario.Models
         public int SeriesIndicationEnd { get; set; }
 
         public Township Township { get; set; }
+        public int TownshipId { get; set; }
 
         public ICollection<Customer> Customers { get; set; }
     }
