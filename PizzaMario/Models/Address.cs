@@ -1,4 +1,6 @@
-﻿namespace PizzaMario.Models
+﻿using System.Collections.Generic;
+
+namespace PizzaMario.Models
 {
     public class Address
     {
@@ -13,5 +15,7 @@
         public int SeriesIndicationEnd { get; set; }
 
         public Township Township { get; set; }
+
+        public ICollection<Customer> Customers { get; set; }
     }
 }

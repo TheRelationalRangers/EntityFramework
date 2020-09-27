@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using PizzaMario.EntityConfigurations;
 using PizzaMario.Models;
 
 namespace PizzaMario
@@ -28,5 +29,10 @@ namespace PizzaMario
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<OrderLine> OrderLines { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new CustomerConfiguration());
+        }
     }
 }
