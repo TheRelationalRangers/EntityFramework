@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PizzaMario.Models
 {
@@ -12,6 +13,7 @@ namespace PizzaMario.Models
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
 
-        public Store Store { get; set; }
+        public int StoreId { get; set; }
+        public virtual Store Store { get; set; }
     }
 }

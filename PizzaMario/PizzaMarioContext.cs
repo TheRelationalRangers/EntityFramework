@@ -35,6 +35,7 @@ namespace PizzaMario
             modelBuilder.Configurations.Add(new CustomerConfiguration());
             modelBuilder.Configurations.Add(new AddressConfiguration());
             modelBuilder.Configurations.Add(new TownshipConfiguration());
+            modelBuilder.Configurations.Add(new StoreConfiguration());
         }
     }
 }

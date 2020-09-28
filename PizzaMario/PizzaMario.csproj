@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="EntityConfigurations\AddressConfiguration.cs" />
     <Compile Include="EntityConfigurations\CustomerConfiguration.cs" />
+    <Compile Include="EntityConfigurations\StoreConfiguration.cs" />
     <Compile Include="EntityConfigurations\TownshipConfiguration.cs" />
     <Compile Include="Migrations\202009261353367_AddCustomer-Address-TownshipTables.cs" />
     <Compile Include="Migrations\202009261353367_AddCustomer-Address-TownshipTables.designer.cs">
@@ -99,6 +100,10 @@
     <Compile Include="Migrations\202009271303467_AddTownshipConfiguration.cs" />
     <Compile Include="Migrations\202009271303467_AddTownshipConfiguration.designer.cs">
       <DependentUpon>202009271303467_AddTownshipConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009281802093_AddStoreConfiguration.cs" />
+    <Compile Include="Migrations\202009281802093_AddStoreConfiguration.designer.cs">
+      <DependentUpon>202009281802093_AddStoreConfiguration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AlternateOpeningHour.cs" />
@@ -160,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009271303467_AddTownshipConfiguration.resx">
       <DependentUpon>202009271303467_AddTownshipConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009281802093_AddStoreConfiguration.resx">
+      <DependentUpon>202009281802093_AddStoreConfiguration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
